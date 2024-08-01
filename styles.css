@@ -1,0 +1,252 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header-container {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.header .headerlogo {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .links img{
+    width: 20px;
+    height: 20px;
+}
+/* main */
+.main-container {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    padding: 25px;
+}
+
+.main-text-container {
+    display: flex;
+    flex: 1;
+    align-content: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text .title {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.main-text .desc {
+
+    padding-top: 10px;
+}
+
+.main-image {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-image img {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.button button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* random info */
+/* Random Info */
+.random-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    flex: 1;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.random-info .random-info-header {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.random-info-card-grid {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.card-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Add spacing between cards */
+}
+
+.card {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden; /* Ensures content doesn't overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;  /* Ensure the image covers the card width */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the card area */
+}
+
+.card-info {
+    display: flex;
+    padding: 20px 75px;
+    text-align: center;
+    justify-content: center; /* Center the text */
+}
+
+
+/* quote */
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 250px 100px 250px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-text {
+    display: flex;
+    flex: 1;
+    font-style: italic;
+    font-size: 36px;
+    align-content: center;
+}
+
+.quote .quote-author {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* action */
+.action-container {
+    margin: 75px 150px 75px 150px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    padding: 50px 90px 50px 90px;
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 18px;
+}
+
+.action-text {
+    padding-right: 500px;
+}
+
+.action-text .action-boldtext {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.action-button {
+    /* justify-content: center; */
+    align-content: center;
+    /* padding: 0px 0px 0px 150px; */
+}
+
+.action-button button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+/* footer */
+.footer-container {
+    padding: 40px;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer .footer-text {
+    text-align: center;
+}
